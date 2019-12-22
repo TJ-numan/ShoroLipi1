@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:rowCount="2"
+    android:alignmentMode="alignMargins"
+    >
+
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/so"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/ojogor"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/a15"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_6"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_9"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_10"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="5.0">
+
+            <ImageView
+                android:id="@+id/sa"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/b_11"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/am"
+                android:layout_width="128dp"
+                android:layout_height="94dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:src="@drawable/aam"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</GridLayout>
+    </ScrollView>
