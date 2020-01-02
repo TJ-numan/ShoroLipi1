@@ -15,8 +15,8 @@ public class Main6Activity extends AppCompatActivity {
 
     private ImageView ko;
     private ImageView kola;
-    private ImageView kho;
-    private ImageView khorgosh;
+   // private ImageView kho;
+   // private ImageView khorgosh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +25,8 @@ public class Main6Activity extends AppCompatActivity {
 
         ko =findViewById(R.id.ko);
         kola =findViewById(R.id.kola);
-        kho =findViewById(R.id.kho);
-        khorgosh =findViewById(R.id.khorgosh);
+        //kho =findViewById(R.id.kho);
+      //  khorgosh =findViewById(R.id.khorgosh);
 
         sound=MediaPlayer.create(this,R.raw.b_12);
         ko.setOnClickListener(new View.OnClickListener() {
